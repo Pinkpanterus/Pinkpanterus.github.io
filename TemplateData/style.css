@@ -13,6 +13,14 @@ canvas {
 body {
     margin: 0;
 }
+
+@media (orientation: landscape) {
+  body {
+    flex-direction: row;
+  }
+}
+
+
 #unity-container {
     width: 100%;
     height: 100%;
